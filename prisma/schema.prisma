@@ -72,3 +72,28 @@ model poblacion {
   codigo String @db.VarChar(5)
   nombre String @unique(map: "poblacion_nombre_unique") @db.VarChar(100)
 }
+
+model Orden {
+  id            BigInt      @id @default(autoincrement())
+  user_id       BigInt
+  subtotal      Decimal       @db.Decimal(8, 2)
+  total         Decimal       @db.Decimal(8, 2)
+  iva           Decimal       @db.Decimal(8, 2)
+  pagado        String      @db.VarChar(1)
+  entregado     String      @db.VarChar(1)
+  transactionId String?     @db.VarChar(255)
+  articulos     Int
+
+  @@map("ordenes") // Este mapa es opcional, si deseas que el nombre en la BD sea "ordenes"
+}
+
+model Detalle {
+  id         BigInt    @id @default(autoincrement())
+  orden_id   BigInt
+  cerveza_id BigInt
+  precio     Decimal   @db.Decimal(8, 2)
+  cantidad   Int
+
+  @@map("detalles")
+}
+

@@ -13,6 +13,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719863077/fo7xxbtviptvh1x7uwme.webp",
     denominacion_id: 2,
+    destacado: "N",
+    oferta: "N",
+    stock: 200,
   },
   {
     nombre: "CUNE GRAN RESERVA 2017",
@@ -28,6 +31,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719863376/kaznug3n7aihmi6oozu2.webp",
     denominacion_id: 2,
+    destacado: "S",
+    oferta: "N",
+    stock: 200,
   },
   {
     nombre: "CUNE SEMIDULCE",
@@ -43,6 +49,8 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719863787/av09rgd6gkjspixdkemy.webp",
     denominacion_id: 2,
+    oferta: "S",
+    stock: 200,
   },
   {
     nombre: "CARRAMONTE CRIANZA 2021",
@@ -58,6 +66,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719864181/nixctxnj25jmfoubofld.webp",
     denominacion_id: 3,
+    destacado: "N",
+    oferta: "S",
+    stock: 200,
   },
   {
     nombre: "SEMELE 2021",
@@ -73,6 +84,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719864997/iyiekyrdwihtlae7uuc7.webp",
     denominacion_id: 3,
+    destacado: "S",
+    oferta: "S",
+    stock: 200,
   },
   {
     nombre: "CAVA BACH BRUT NATURE",
@@ -88,6 +102,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719865420/vco7ct8z8rrdhumtyofd.webp",
     denominacion_id: 8,
+    destacado: "N",
+    oferta: "S",
+    stock: 200,
   },
   {
     nombre: "RAVENT\u00d3S DE ALELLA BLANC ALLIER 2019",
@@ -103,6 +120,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719865678/a4lthxszsiuzoxqnl1eu.webp",
     denominacion_id: 7,
+    destacado: "S",
+    oferta: "S",
+    stock: 200,
   },
   {
     nombre: "ABRACADABRA 2021",
@@ -118,6 +138,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719866479/svxeruaefqfcjluzozz4.webp",
     denominacion_id: 5,
+    destacado: "N",
+    oferta: "N",
+    stock: 200,
   },
   {
     nombre: "COLEGIATA ROSADO 2023",
@@ -133,6 +156,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719866801/twsfuqjpymdqqqfnqgey.webp",
     denominacion_id: 5,
+    destacado: "N",
+    oferta: "N",
+    stock: 200,
   },
   {
     nombre: "JEAN LEON 3055 PETIT VERDOT-MERLOT 2021",
@@ -148,6 +174,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719898996/yljotoipuaqsrnvc2ces.webp",
     denominacion_id: 8,
+    destacado: "N",
+    oferta: "N",
+    stock: 200,
   },
   {
     nombre: "ME\u00cdN CASTES BRANCAS 2022",
@@ -163,6 +192,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719944187/pt2vjzin2zcuddwompw7.webp",
     denominacion_id: 10,
+
+    oferta: "S",
+    stock: 200,
   },
   {
     nombre: "LUSCO ALBARI\u00d1O 2023",
@@ -178,6 +210,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719944802/dzw3uptvowybferwuqej.webp",
     denominacion_id: 11,
+    destacado: "N",
+    oferta: "N",
+    stock: 200,
   },
   {
     nombre: "PACO & LOLA PRIME 2020",
@@ -193,6 +228,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719945139/ln4prerwsqp7izcspkmu.webp",
     denominacion_id: 11,
+    destacado: "N",
+    oferta: "S",
+    stock: 200,
   },
   {
     nombre: "PAZO DAS BRUXAS ALBARI\u00d1O 2023",
@@ -208,6 +246,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719945456/fsqffbarizpq0dvjstzj.webp",
     denominacion_id: 11,
+    destacado: "N",
+    oferta: "S",
+    stock: 200,
   },
   {
     nombre: "PARXET CUV\u00c9E 21 ECO",
@@ -223,6 +264,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719945847/fmtuzycyj38vmaeapkxo.webp",
     denominacion_id: 11,
+    destacado: "N",
+    oferta: "N",
+    stock: 200,
   },
   {
     nombre: "ANNA DE CODORN\u00cdU BLANC DE BLANCS RESERVA M\u00c1GNUM",
@@ -238,6 +282,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719946134/cjzlbvqizpoxvnvdsaju.webp",
     denominacion_id: 11,
+    destacado: "N",
+    oferta: "S",
+    stock: 200,
   },
   {
     nombre: "PARXET GRAN RESERVA M.C.",
@@ -253,6 +300,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719946589/y41x5pr4ua8ewgk3uutf.webp",
     denominacion_id: 11,
+    destacado: "N",
+    oferta: "N",
+    stock: 200,
   },
   {
     nombre: "PARXET BRUT RESERVA",
@@ -267,6 +317,9 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719946805/jj60zhbawcro8m0kvybx.webp",
     denominacion_id: 11,
+    destacado: "N",
+    oferta: "N",
+    stock: 200,
   },
   {
     nombre: "SE\u00d1OR\u00cdO DEL BIERZO MENC\u00cdA CENTENARIA 2021",
@@ -282,5 +335,8 @@ export const productos = [
     imagen:
       "https://res.cloudinary.com/dkrew530b/image/upload/v1719947058/mpgoxta2uqdfet7rklkp.webp",
     denominacion_id: 9,
+    destacado: "S",
+    oferta: "N",
+    stock: 200,
   },
 ];
